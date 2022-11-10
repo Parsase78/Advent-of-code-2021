@@ -3,9 +3,9 @@ data = [x.split() for x in data]
 commands = [(x[0],int(x[1])) for x in data]
 h=0 
 d=0
-a=0
+a=0 #aim
 for cmd,val in commands: 
- if cmd == 'forward':
+ if cmd == 'forward': #changing the instructions according to aim 
     h += val
     d += a*val
  elif cmd == 'down':
