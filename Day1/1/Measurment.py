@@ -1,5 +1,3 @@
-
-
 with open('Day1/1/input.txt') as f:
     for lines in f:
         lines = f.readlines()
