@@ -1,4 +1,4 @@
-with open('input.txt') as f:
+with open('Day1/1/input.txt') as f:
     for lines in f:
         lines = f.readlines()
         numbers = [int(e.strip()) for e in lines]
